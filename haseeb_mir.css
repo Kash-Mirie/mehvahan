@@ -1,0 +1,115 @@
+@font-face {
+  font-family:Gotham-book;
+  src: url(Font/Gotham-Book.otf);
+}
+@font-face {
+  font-family:Gotham-Medium;
+  src: url(Font/Gotham-Medium.otf);
+}
+@font-face {
+  font-family:GOTHAM-MEDIUM;
+  src: url(Font/GOTHAM-MEDIUM.TTF);
+}
+@font-face {
+  font-family:Hobo-Std-Medium;
+  src: url(Font/Hobo-Std-Medium.ttf);
+}
+@font-face {
+  font-family:Montserrat-Bold;
+  src: url(Font/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family:Montserrat-Medium;
+  src: url(Font/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family:Montserrat-Regular;
+  src: url(Font/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family:Montserrat-SemiBold;
+  src: url(Font/Montserrat-SemiBold.ttf);
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    table {
+      width: 100% !important;
+    }
+}
+/* ----------- Non-Retina Screens ----------- */
+@media screen
+ and (min-device-width: 1200px)
+ and (max-device-width: 1600px)
+ and (-webkit-min-device-pixel-ratio: 1) {
+   table {
+     width: 100% !important;
+   }
+
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    footer {
+      font-size:1em;
+      display: inline-flex;
+    }
+    p {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    footer {
+      font-size:1em;
+      display: inline-flex;
+    }
+    p {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    table {
+      width: 100%;
+      font-size: 1.2em;
+
+    }
+
+}
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+    table {
+      width: 100%;
+      font-size: 1.2em;
+
+    }
+
+}
